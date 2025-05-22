@@ -71,19 +71,9 @@ The architecture follows a standard CNN pipeline:
 
 ---
 
-## 📦 Dataset
-
-- **Currency**: Indian Rupee (₹)
-- **Images**: 2740 labeled images of various denominations
-- **Source**: [Mendeley Data](https://data.mendeley.com/)
-- **Format**: PNG
-- **Size**: ~2 GB
-
----
-
 ## 📊 Results
 
-- **Test Accuracy**: 83.03%
+- **Test Accuracy**: 93.03%
 - Includes:
   - Accuracy graph
   - Loss curve
