@@ -1,14 +1,14 @@
-# 💵 Blind Assist for Currency Recognition
+# Blind Assist for Currency Recognition
 
 A deep learning–based system designed to empower visually impaired individuals by helping them recognize currency notes through image recognition and audio feedback.
 
-## 👁️‍🗨️ Overview
+#  Overview
 
 Visually impaired individuals often face challenges when dealing with cash transactions, risking fraud or misidentification of currency. This project addresses this issue by developing a CNN-based currency recognition system that integrates voice feedback, promoting independence and safety in financial dealings.
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Develop a reliable and efficient solution using machine learning and deep learning techniques for visually impaired people to:
 - Recognize currency notes via image input.
@@ -16,7 +16,7 @@ Develop a reliable and efficient solution using machine learning and deep learni
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Train a CNN model to classify currency notes using a custom dataset.
 - Build a mobile application with real-time image capture and voice output.
@@ -24,7 +24,7 @@ Develop a reliable and efficient solution using machine learning and deep learni
 
 ---
 
-## 🛠️ Methodology
+##  Methodology
 
 1. **Data Collection & Preprocessing**  
    - Indian currency dataset (2.74k images, ~2 GB).
@@ -44,7 +44,7 @@ Develop a reliable and efficient solution using machine learning and deep learni
 
 ---
 
-## 🚧 Gaps Identified
+##  Gaps Identified
 
 - Requires internet connectivity (no offline support).
 - Cannot detect fake/counterfeit currency.
@@ -53,7 +53,7 @@ Develop a reliable and efficient solution using machine learning and deep learni
 
 ---
 
-## 💡 Proposed System
+##  Proposed System
 
 - **Model**: Sequential CNN with 3 convolutional layers and 2 dense layers.
 - **Data Augmentation**: Rotation, zoom, shear, and flips using `ImageDataGenerator`.
@@ -64,14 +64,14 @@ Develop a reliable and efficient solution using machine learning and deep learni
 
 ---
 
-## 🖼️ Architecture
+##  Architecture
 
 The architecture follows a standard CNN pipeline:  
 `Input → Conv2D → MaxPooling → Conv2D → MaxPooling → Flatten → Dense → Output`
 
 ---
 
-## 📊 Results
+##  Results
 
 - **Test Accuracy**: 93.03%
 - Includes:
@@ -81,20 +81,20 @@ The architecture follows a standard CNN pipeline:
 
 ---
 
-## 🔚 Conclusion
+##  Conclusion
 
 This project enhances accessibility and inclusivity by enabling blind individuals to identify currency easily and independently. It’s a promising assistive technology for real-world deployment.
 
 ---
 
-## 🔭 Future Scope
+##  Future Scope
 
 - ✅ Add **fake currency detection** using image forensics.
 - ✅ Develop **offline-capable models**.
 - ✅ Integrate with **wearable devices** (e.g., smart glasses).
 - ✅ Embed into **financial transaction systems** (POS, ATM).
 
-## 🤝 Connect with Me
+##  Connect with Me
 
 📧 rasalharish585@gmail.com  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/rasalharish/)
